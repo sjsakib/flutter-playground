@@ -18,6 +18,12 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/navigatoin-test');
                 },
+              ),
+              RaisedButton(
+                child: Text('Image'),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/image-test');
+                },
               )
             ]),
       ),

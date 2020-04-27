@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/home.dart';
 import 'screens/navigation.dart';
+import 'screens/image.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
-        '/navigatoin-test': (context) => NavigationTest()
+        '/navigatoin-test': (context) => NavigationTest(),
+        '/image-test': (context) => ImageScreen(),
       },
     );
   }
